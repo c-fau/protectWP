@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'unboundedregular';
+    src: url('fonts/unbounded-variablefont_wght-webfont.eot');
+    src: url('fonts/unbounded-variablefont_wght-webfont.eot?') format('embedded-opentype'),
+         url('fonts/unbounded-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/unbounded-variablefont_wght-webfont.woff') format('woff'),
+         url('fonts/unbounded-variablefont_wght-webfont.ttf') format('truetype'),
+         url('fonts/unbounded-variablefont_wght-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Regular.ttf') format('truetype');
+    src: url('fonts/Lato-Regular.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body{
+    background-color: #ffffff;
+    font-family:"Lato",Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.img-head{
+    padding: 0;
+    margin: 0%;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+}
+.head-bar{
+    
+    overflow: hidden;
+    background-color: #233b24;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -25px;
+    position:relative;
+    width: auto;
+    height: 60px;
+    z-index: 2;
+}
+.head-title{
+    font-family:'unboundedregular', Courier, monospace;
+    color: #fff;
+    font-size: 400%;
+    position: absolute;
+    padding-left: 395px;
+    padding-top: 0px;
+    margin-top: -5px;
+}
+/* .menu-bar{
+    overflow: hidden;
+    z-index: 3;
+    background-color: #1e1e1e;
+    padding: 0;
+    margin: 0;
+    position:relative;
+    width: 100%;
+    height: 5%;
+} */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 400px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+  }
+  .menu li a:hover {
+    background-color: #111;
+  }
+  .active {
+    position: relative;
+    background-color: #9faf90;
+    box-shadow: inset 0px 2px 0px #fff;
+    box-sizing: border-box;
+  }
