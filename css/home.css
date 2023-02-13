@@ -1,30 +1,61 @@
 .body0{
-    margin-left: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
     width: auto;
-    height: 200%;
+    height: 110%;
     overflow-x: hidden;
 }
-.body0 .container0{
-    width: auto;
-    height: 400px;
-    }
-.body0 .container0 .img0{
+.container0{
+overflow: hidden;
+}
+.container1{
+  overflow: hidden;
+}
+.container2{
+  overflow: hidden;
+}
+.container0 .img0{
+    margin-right: 4%;
+    margin-left: 0px;
+    margin-top: 4%;
+    float: left;
+}
+.img-grid{
+  margin-top: 4%;
+  margin-right: 4%;
+  position:relative;
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+.img-grid .view01{
+  margin-right: 6px;
 
-    margin: 50px;
+}
+.img-grid .view02{
+  margin-top: 6px;
+}
+.img-grid .view03{
+  margin-right: 6px;
+  margin-bottom: 0px;
+  margin-top: 6px;
+}
+
+.img-grid img:hover {opacity: 0.7;}
+.container2 .img2{
+  margin-right: 4%;
+  margin-left: 0px;
+  margin-top: 4%;
+  float: left;
+}
+.content0{
+  width: 65%;
+    height: auto;
     margin-left: 0px;
-    margin-top: 50px;
+    margin-top: 4%;
     float: left;
 }
-.body0 .container0 .content0{
-    position: relative;
-    width: 600px;
-    height: 300px;
-    
-    margin-left: 0px;
-    margin-top: 50px;
-    float: left;
-}
-.body0 .container0 .content0 h1{
+.content0 h1{
     margin-top: 0px;
     
 }
@@ -37,14 +68,14 @@
   text-decoration: none;
 }
 .content-list{
-    padding-top: 50px;
-    left: 75px;
+    padding-top: 3%;
+    left: 4%;
     top: 0px;
     float: left;
     position: sticky;
     position: -webkit-sticky;
     height: 300px;
-    width: 200px;
+    width: 10%;
 
   }
   .content-list h3{
@@ -69,25 +100,4 @@
   .content-list a:hover {
     color: #111;
   }
-.img-grid{
-  padding-top: 50px;
-  padding-right: 50px;
-  position:relative;
-  float: left;
-  width: 300px;
-  height: 300px;
-}
-.img-grid .view01{
-  margin-right: 6px;
 
-}
-.img-grid .view02{
-  margin-top: 6px;
-}
-.img-grid .view03{
-  margin-right: 6px;
-  margin-bottom: 0px;
-  margin-top: 6px;
-}
-
-.img-grid img:hover {opacity: 0.7;}
