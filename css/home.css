@@ -15,14 +15,12 @@ overflow: hidden;
   overflow: hidden;
 }
 .container0 .img0{
-    margin-right: 4%;
     margin-left: 0px;
     margin-top: 4%;
     float: left;
 }
 .img-grid{
   margin-top: 4%;
-  margin-right: 4%;
   position:relative;
   float: left;
   width: 300px;
@@ -43,7 +41,6 @@ overflow: hidden;
 
 .img-grid img:hover {opacity: 0.7;}
 .container2 .img2{
-  margin-right: 4%;
   margin-left: 0px;
   margin-top: 4%;
   float: left;
@@ -51,7 +48,7 @@ overflow: hidden;
 .content0{
   width: 65%;
     height: auto;
-    margin-left: 0px;
+    margin-right: 4%;
     margin-top: 4%;
     float: left;
 }

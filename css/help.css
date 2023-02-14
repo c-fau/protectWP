@@ -33,27 +33,24 @@
 .leaflet-1 h2{
     position: relative;
     color: #233b24;
-    float:left;
-    width: 400;
+    float: left;
+    top: 50%;
+    margin-bottom: 0;
 }
 .leaflet-1{
-    margin-bottom: 20px;
-}
-.leaflet-2 h2{
-    position: relative;
-    color: #233b24;
-    float:left;
-    width: 350;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: auto;
+
 }
 .leaflet-1 h2:hover{
     color: #111;
+
 }
-.leaflet-2 h2:hover{
-    color: #111;
+
+.leaflet-1 img{
+    padding-left: 4%;
 }
 .leaflet-1 img:hover{
-    opacity: 50%;
-}
-.leaflet-2 img:hover{
     opacity: 50%;
 }
