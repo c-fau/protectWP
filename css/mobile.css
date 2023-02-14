@@ -1,0 +1,92 @@
+@media screen and (max-device-width: 1050px) and (orientation: portrait){
+    .body0{
+        margin-left: 20%;
+        margin-right: 8%;
+        width: auto;
+        height: 110%;
+        overflow-x: hidden;
+    }
+    .content0{
+        width: 100%;
+        font-size:150%;
+          height: auto;
+          margin-left: 0px;
+          margin-top: 4%;
+          
+      }
+      .container0 .img0{
+        margin-left: 0px;
+        margin-top: 4%;
+        position:relative;
+        left: 0;
+        bottom: 0;
+    }
+    .img-grid{
+
+        width: 610px;
+        height: 150px;
+      }
+      .img-grid .view01{
+        margin-right: 6px;
+      
+      }
+      .img-grid .view02{
+        margin-right: 6px;
+      }
+      .img-grid .view03{
+        margin-right: 6px;
+
+      }
+      .img-grid .view04{
+        margin-right: 0px;
+
+      }
+      .img-grid img:hover {opacity: 0.7;}
+      .container2 .img2{
+        margin-left: 0px;
+        margin-top: 4%;
+        ;
+      }
+      .menu li a {
+        font-size: 150%;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .content-list{
+        font-size: 150%;
+        padding-top: 3%;
+        left: 4%;
+        top: 0px;
+        float: left;
+        position: sticky;
+        position: -webkit-sticky;
+        height: 300px;
+        width: 14%;
+    
+      }
+      .content-list h3{
+        border-bottom-style: solid;
+        border-width: thin;
+        text-decoration: none;
+        margin: 0px;
+      }
+      .content-list li{
+        margin-top: 0px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        color: #9faf90;
+        list-style-type:square;
+      }
+      .content-list ul{
+        padding-inline-start: 20px;
+      }
+      .leaflet-1 img{
+        top: 50%;
+      }
+      .leaflet-1 h2{
+        margin-top: 0;
+      }
+  }
